@@ -1,22 +1,15 @@
 
-
+/*
+Valication
+AMAURER
+*/
 
 ;(function($){
 	
-	$.fn.valication = function(val, type){
-		/*
-		switch(type.toLowerCase()){
-			case 'phone' :
-				break;
-			case 'email' :
-				break;
-			default :
-				/* Check length *
-				return Boolean(val.length);
-		}
-		*/
+	$.valication = function(val, type){
+		
 		var lType = type.toLowerCase();
-		if(typeof valication[lType] !== 'undefined'){
+		if(typeof validation[lType] !== 'undefined'){
 			return validation[lType](val.toString());
 		} else {
 			return Boolean(val.length);
