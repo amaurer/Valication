@@ -5,7 +5,7 @@ AMAURER
 */
 
 	
-exports.valication = function(val, type){
+exports.isValid = function(val, type){
 
 	var lType = type.toLowerCase();
 	if(typeof validation[lType] !== 'undefined'){
