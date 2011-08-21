@@ -1,12 +1,12 @@
 
 /*
-Valication for straight-up JavaScript Ninjas
+Valication for jQuery Ninjas
 AMAURER
 */
 
-;(function(){
+;(function($){
 	
-	window.valication = function(val, type){
+	$.valication = function(val, type){
 
 		var lType = type.toLowerCase();
 		if(typeof validation[lType] !== 'undefined'){
@@ -40,6 +40,6 @@ AMAURER
 			return validation.int(val);
 		}
 
-	}
+	};
 
-})();
+})(jQuery);
