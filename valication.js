@@ -5,17 +5,6 @@ AMAURER
 */
 
 ;(function(){
-	
-	window.valication = function(val, type){
-
-		var lType = type.toLowerCase();
-		if(typeof validation[lType] !== 'undefined'){
-			return validation[lType](val.toString());
-		} else {
-			return Boolean(val.length);
-		}
-
-	};
 
 	var validation = {
 		email : function(val){ 
@@ -68,6 +57,17 @@ AMAURER
 			return re.test(val);
 		}
 
-	}
+	};
+	
+	window.valication = function(val, type){
+
+		var lType = type.toLowerCase();
+		if(typeof validation[lType] !== 'undefined'){
+			return validation[lType](val.toString());
+		} else {
+			return Boolean(val.length);
+		};
+
+	};
 
 })();
