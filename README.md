@@ -1,4 +1,4 @@
-#Validcation
+#Valication
 A simple JavaScript function that has multiple validation types and is application agnostic. 
 
 ---------------------
