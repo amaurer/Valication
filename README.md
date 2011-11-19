@@ -1,5 +1,5 @@
 #Validcation
-	A simple JavaScript function that has multiple validation types and is application agnostic. 
+A simple JavaScript function that has multiple validation types and is application agnostic. 
 
 ---------------------
 
