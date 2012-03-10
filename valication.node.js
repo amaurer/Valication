@@ -58,7 +58,7 @@ var validation = {
 	},
 	coldfusionUID : function(val){
 		var re = /^(\{?([0-9a-fA-F]){8}-(([0-9a-fA-F]){4}-){3}([0-9a-fA-F]){12}\}?)$/;
-		return re.test(val):
+		return re.test(val);
 	},
 	time12 : function(val){
 		var re = /^[01]?\d:[0-5]\d?\s?[aApP]\.?[mM]\.?$/;
