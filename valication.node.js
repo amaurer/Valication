@@ -53,7 +53,7 @@ var validation = {
 		return re.test(val);
 	},
 	date : function(val){
-		var re = /^((0?\d)|(1[012]))\/([012]?\d|30|31)\/\d{1,4}$/;
+		var re = /^((0?\d)|(1[012]))[\/-]{0,1}([012]?\d|30|31)[\/-]{0,1}\d{1,4}$/;
 		return re.test(val);
 	},
 	coldfusionUID : function(val){
