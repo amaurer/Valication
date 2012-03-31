@@ -36,7 +36,7 @@ Valication for jQuery Ninjas
 			return (isNaN(parseFloat(val)));
 		},
 		int : function(val){
-			return (parseInt(val) !== val);
+			return (parseInt(val) == val);
 		},
 		integer : function(val){
 			return validation.int(val);
